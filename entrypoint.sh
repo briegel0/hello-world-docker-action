@@ -2,5 +2,5 @@
 
 echo "Hello $1"
 #time=$(date)
-time=$(date --date="2 month ago")
+time=$(date -I)
 echo "::set-output name=time::$time"
